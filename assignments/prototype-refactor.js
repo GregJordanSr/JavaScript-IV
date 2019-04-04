@@ -78,6 +78,7 @@ class Humanoid extends CharacterStats {
         return `${this.name} offers a greeting in ${this.language}.`;
       };
 };
+
 /*
   * Inheritance chain: GameObject -> CharacterStats -> Humanoid
   * Instances of Humanoid should have all of the same properties as CharacterStats and GameObject.
@@ -85,7 +86,6 @@ class Humanoid extends CharacterStats {
 */
 
 // Test you work by un-commenting these 3 objects and the list of console logs below:
-
 
   const mage = new Humanoid({
     createdAt: new Date(),
