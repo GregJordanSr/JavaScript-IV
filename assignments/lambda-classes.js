@@ -63,6 +63,6 @@ class ProjectManager extends Instructor {
     }
 
     debugsCode(subject) {
-        console.log(`${this.name} debugs ${student.name}/'s code on ${this.subject}`);
+        return(`${this.name} debugs ${student.name}/'s code on ${this.subject}`);
     }
 };
